@@ -1,0 +1,94 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call NeuroBot", "I'm NeuroBot!", "My name is NeuroBot"],
+         "context_set": ""
+        },
+        {"tag": "glia",
+         "patterns": ["what are glial cells", "define glia", "glial cells"],
+         "responses": ["Glia are the non-neuronal cells of the central nervous system"],
+         "context_set": ""
+        },
+        {"tag": "neuron",
+         "patterns": ["what is a neuron","what are the brain cells"],
+         "responses": ["A neuron is a specialized cell that transmits nerve impluses"],
+         "context_set": ""
+        },
+        {"tag": "anatomy",
+         "patterns": ["what are the lobes of the brain", "what are the regions of the brain"],
+         "responses": ["There are 4 lobes of the brain, the frontal lobe, temporal lobe, occipital lobe and parietal lobe "],
+         "context_set": ""
+        },
+        {"tag": "action potential",
+         "patterns": ["what is an action potential", "action potential", "how do neurons work"],
+         "responses": ["Neurons send action potential which are changes in electrical potential associated with the passage of an impulse along the membrane of a nerve cell."],
+         "context_set": ""
+        },
+        {"tag": "synapse",
+         "patterns": ["what is the synapse", "what happens at the synapse"],
+         "responses": ["The synapse is the junction between two neurons where neurotransmitter is released"],
+         "context_set": ""
+        },
+        {"tag": "astrocyte",
+         "patterns": ["what is an astrocyte", "astrocyte","define astrocyte", "what does an astrocyte do"],
+         "responses": ["Astrocytes are star shaped glial cells and have a variety of functions","Astrocytes control cerebral blood flow, maintian the blood brain barrier, metabolize monoamine oxidases, and many more functions"],
+         "context_set": ""
+        },
+        {"tag": "microglia",
+         "patterns": ["what are microglia", "microglia","define microglia", "what do microglia do"],
+         "responses": ["Microglia are the immune cells of brain", "Microglia phagocytose pathogens in the CNS"],
+         "context_set": ""
+        },
+        {"tag": "oligodendrocyte",
+         "patterns": ["what is an oligodendrocyte", "oligodendrocyte","define oligodendrocyte", "what does an oligodendrocyte do"],
+         "responses": ["oligodendrocyte are the myelinating cells of the central nervous system", "oligodendrocyte wrap around the axon of neurons making the myelin sheath"],
+         "context_set": ""
+        },
+        {"tag": "myelin",
+         "patterns": ["what is myelin", "myelin", "what is the myelin sheath"],
+         "responses": ["Myelin is made from oligodendrocytes in the CNS and Schwann cells in the PNS. A myelin sheath wraps around the axon of a neuron and provides structural as well as nutritional support and increases the speed at which impluses are conducted"],
+         "context_set": ""
+        },
+        {"tag": "neurotransmitter",
+         "patterns": ["what is a neurotransmitter", "neurotransmitter", "what do neurotransmitters do"],
+         "responses": ["Neurotransmitters are chemical substances that are released at the end of a nerve fiber by the arrival of an action potential.", 
+            "Neurotransmitters are released into the synapse and bind to recptors on the dendrites of neurons. The binding of neurotransmitters to recptors results in the opening of channels and an influx of positive ions which can trigger an action potential", "The most known neurotransmitters include glutamate, dopamine, serotonin, GABA, epinephrine, and norepinephrine"],
+         "context_set": ""
+        },
+        {"tag": "receptor",
+         "patterns": ["what is a receptor", "receptor", "what does a receptor do", "what are the different types of receptors"],
+         "responses": ["Receptors are is a molecule in the cell membrane, which reponds specifically to a particular neurotransmitter, hormone, antigen, or other substances.", "The receptors present at a synapse are either ionotropic or metabatropic"],
+         "context_set": ""
+        },
+        {"tag": "axon",
+         "patterns": ["what is a receptor", "receptor", "what does a receptor do", "what are the different types of receptors"],
+         "responses": ["Receptors are is a molecule in the cell membrane, which reponds specifically to a particular neurotransmitter, hormone, antigen, or other substances.", "The receptors present at a synapse are either ionotropic or metabatropic"],
+         "context_set": ""
+        },
+        {"tag": "dendrite",
+         "patterns": ["what is a receptor", "receptor", "what does a receptor do", "what are the different types of receptors"],
+         "responses": ["Receptors are is a molecule in the cell membrane, which reponds specifically to a particular neurotransmitter, hormone, antigen, or other substances.","The receptors present at a synapse are either ionotropic or metabatropic"],
+         "context_set": ""
+        },
+        {"tag": "ionotropic",
+         "patterns": ["what is a ionotropic receptor", "ionotropic", "what does ionotropic mean"],
+         "responses": ["Not filled in"],
+         "context_set": ""
+        },
+        {"tag": "metabatropic",
+         "patterns": ["what is a metabatropic receptor", "metabatropic", "what does metabatropic mean"],
+         "responses": ["Not filled in"],
+         "context_set": ""
+        }
+   ]
+}

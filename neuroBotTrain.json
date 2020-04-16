@@ -16,7 +16,7 @@
         },
         {"tag": "glia",
          "patterns": ["what are glial cells", "define glia", "glial cells"],
-         "responses": ["Glia are the non-neuronal cells of the central nervous system"],
+         "responses": ["Glia are the non-neuronal cells of the central nervous system", "Glial cells are better than neurons", "Glial cells are the backbone of the brain"],
          "context_set": ""
         },
         {"tag": "neuron",
@@ -71,23 +71,23 @@
          "context_set": ""
         },
         {"tag": "axon",
-         "patterns": ["what is a receptor", "receptor", "what does a receptor do", "what are the different types of receptors"],
-         "responses": ["Receptors are is a molecule in the cell membrane, which reponds specifically to a particular neurotransmitter, hormone, antigen, or other substances.", "The receptors present at a synapse are either ionotropic or metabatropic"],
+         "patterns": ["what is an axon", "axon"],
+         "responses": [ "An axon is a long slender projection of the neuron which conducts action potentials"],
          "context_set": ""
         },
         {"tag": "dendrite",
-         "patterns": ["what is a receptor", "receptor", "what does a receptor do", "what are the different types of receptors"],
-         "responses": ["Receptors are is a molecule in the cell membrane, which reponds specifically to a particular neurotransmitter, hormone, antigen, or other substances.","The receptors present at a synapse are either ionotropic or metabatropic"],
+         "patterns": ["what is an axon", "axon"],
+         "responses": ["Dendrites are short brandched extensions of a neuron which receive impulses from other cells are synapses"],
          "context_set": ""
         },
         {"tag": "ionotropic",
          "patterns": ["what is a ionotropic receptor", "ionotropic", "what does ionotropic mean"],
-         "responses": ["Not filled in"],
+         "responses": ["Ionotropic receptors are membrane-bound receptor proteins that respond to ligand binding by opening an ion channel and allowing ions to flow into the cell, either increasing or decreasing the likelihood that an action potential will fire"],
          "context_set": ""
         },
-        {"tag": "metabatropic",
+        {"tag": "metabotropic",
          "patterns": ["what is a metabatropic receptor", "metabatropic", "what does metabatropic mean"],
-         "responses": ["Not filled in"],
+         "responses": ["Metabotropic receptors are membrane receptors which activate second messengers when a ligand binds"],
          "context_set": ""
         }
    ]

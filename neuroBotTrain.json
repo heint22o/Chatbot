@@ -9,18 +9,43 @@
          "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
          "context_set": ""
         },
+        {"tag": "thanking",
+         "patterns": ["thank you","thank you for all your help", "thanks"],
+         "responses": ["You're welcome!"],
+         "context_set": ""
+        },
         {"tag": "name",
          "patterns": ["what is your name", "what should I call you", "whats your name?"],
          "responses": ["You can call NeuroBot", "I'm NeuroBot!", "My name is NeuroBot"],
          "context_set": ""
         },
+        {"tag": "help",
+         "patterns": ["I need help with neuro-100", "I need help with my neuroscience class", "help"],
+         "responses": ["What are you struggling with?", "Is there something you do not understand?", "Tell me what you need help with"],
+         "context_set": ""
+        },
+        {"tag": "brain cells",
+         "patterns": ["Are neurons the only type of brain cell"],
+         "responses": ["No, only 50% of the cells in your brain are neurons. The other 50% are glial cells"],
+         "context_set": ""
+        },
         {"tag": "glia",
          "patterns": ["what are glial cells", "define glia", "glial cells"],
-         "responses": ["Glia are the non-neuronal cells of the central nervous system", "Glial cells are better than neurons", "Glial cells are the backbone of the brain"],
+         "responses": ["Glia are the non-neuronal cells of the central nervous system", "Glial cells are the backbone of the brain"],
+         "context_set": ""
+        },
+        {"tag": "glia or neuron",
+         "patterns": ["Which do you think are better neurons or glia"],
+         "responses": ["In my opinion glial cells are better than neurons"],
+         "context_set": ""
+        },
+        {"tag": "types of glia",
+         "patterns": ["Are glial cells only one type of cell"],
+         "responses": ["No, there are several different types of glial cells. Some of the cells that are categorized as glial include: astroctes, microglia, and oligodendrocytes"],
          "context_set": ""
         },
         {"tag": "neuron",
-         "patterns": ["what is a neuron","what are the brain cells"],
+         "patterns": ["what is a neuron","what are the brain cells", "neurons", "I dont quite understand what neurons are"],
          "responses": ["A neuron is a specialized cell that transmits nerve impluses"],
          "context_set": ""
         },
@@ -29,9 +54,25 @@
          "responses": ["There are 4 lobes of the brain, the frontal lobe, temporal lobe, occipital lobe and parietal lobe "],
          "context_set": ""
         },
+        {"tag": "nerve impulse",
+         "patterns": ["nerve impulse", "what is a nerve impulse"],
+         "responses": ["A nerve impulse is an action potential"],
+         "context_set": ""
+        },
         {"tag": "action potential",
          "patterns": ["what is an action potential", "action potential", "how do neurons work"],
-         "responses": ["Neurons send action potential which are changes in electrical potential associated with the passage of an impulse along the membrane of a nerve cell."],
+         "responses": ["Neurons send action potential which are changes in electrical potential associated with the passage of an impulse along the membrane of a nerve cell.", 
+            "An action potential is an explosion of electrical activity that is created by a depolarizing current. So when the dendrites of one neuron recieves a stimulus from another neuron the receiving neuron membrane becomes more positive resulting in the opening of ion channels. This depolarization travels down the neuron until it reaches the axon and when it reaches the axon if the membrane potential is positive enough an action potential will fire, where the postive potential opens more ion channels continuously make the membrane potential more positive traveling down the axon. Eventually the positive membrane potential will reach the axon terminal and result in the release of neurotransmitters into a synapse"],
+         "context_set": ""
+        },
+        {"tag": "action potential funtion",
+         "patterns": ["how does an action potential work"],
+         "responses": ["An action potential is an explosion of electrical activity that is created by a depolarizing current. So when the dendrites of one neuron recieves a stimulus from another neuron the receiving neuron membrane becomes more positive resulting in the opening of ion channels. This depolarization travels down the neuron until it reaches the axon and when it reaches the axon if the membrane potential is positive enough an action potential will fire, where the postive potential opens more ion channels continuously make the membrane potential more positive traveling down the axon. Eventually the positive membrane potential will reach the axon terminal and result in the release of neurotransmitters into a synapse"],
+         "context_set": ""
+        },
+        {"tag": "membrane potential",
+         "patterns": ["what does membrane potential mean", "membrane potential"],
+         "responses": ["Membrane potential is the difference in electrical potential, or voltage, across the membrane which results from the charge separation between the inside and outside of a cell"],
          "context_set": ""
         },
         {"tag": "synapse",
@@ -44,14 +85,29 @@
          "responses": ["Astrocytes are star shaped glial cells and have a variety of functions","Astrocytes control cerebral blood flow, maintian the blood brain barrier, metabolize monoamine oxidases, and many more functions"],
          "context_set": ""
         },
+        {"tag": "astrocyte function",
+         "patterns": ["what does an astrocyte do", "what are the functions of an astrocyte"],
+         "responses": ["Astrocytes control cerebral blood flow, maintian the blood brain barrier, metabolize monoamine oxidases, and many more functions"],
+         "context_set": ""
+        },
         {"tag": "microglia",
-         "patterns": ["what are microglia", "microglia","define microglia", "what do microglia do"],
-         "responses": ["Microglia are the immune cells of brain", "Microglia phagocytose pathogens in the CNS"],
+         "patterns": ["what are microglia", "microglia","define microglia"],
+         "responses": ["Microglia are the immune cells of brain"],
+         "context_set": ""
+        },
+        {"tag": "microglia function",
+         "patterns": [ "what do microglia do"],
+         "responses": ["Microglia phagocytose pathogens in the CNS"],
          "context_set": ""
         },
         {"tag": "oligodendrocyte",
-         "patterns": ["what is an oligodendrocyte", "oligodendrocyte","define oligodendrocyte", "what does an oligodendrocyte do"],
+         "patterns": ["what is an oligodendrocyte", "oligodendrocyte","define oligodendrocyte"],
          "responses": ["oligodendrocyte are the myelinating cells of the central nervous system", "oligodendrocyte wrap around the axon of neurons making the myelin sheath"],
+         "context_set": ""
+        },
+        {"tag": "oligodendrocyte function",
+         "patterns": ["what does an oligodendrocyte do"],
+         "responses": ["oligodendrocyte wrap around the axon of neurons making the myelin sheath"],
          "context_set": ""
         },
         {"tag": "myelin",
@@ -60,9 +116,9 @@
          "context_set": ""
         },
         {"tag": "neurotransmitter",
-         "patterns": ["what is a neurotransmitter", "neurotransmitter", "what do neurotransmitters do"],
+         "patterns": ["what is a neurotransmitter", "neurotransmitter", "what do neurotransmitters do", "what are the different neurostansmitters"],
          "responses": ["Neurotransmitters are chemical substances that are released at the end of a nerve fiber by the arrival of an action potential.", 
-            "Neurotransmitters are released into the synapse and bind to recptors on the dendrites of neurons. The binding of neurotransmitters to recptors results in the opening of channels and an influx of positive ions which can trigger an action potential", "The most known neurotransmitters include glutamate, dopamine, serotonin, GABA, epinephrine, and norepinephrine"],
+            "Neurotransmitters are released into the synapse and bind to recptors on the dendrites of neurons. The binding of neurotransmitters to recptors results in the opening of channels and an influx of positive ions which can trigger an action potential.", "The most known neurotransmitters include glutamate, dopamine, serotonin, GABA, epinephrine, and norepinephrine."],
          "context_set": ""
         },
         {"tag": "receptor",
@@ -70,9 +126,19 @@
          "responses": ["Receptors are is a molecule in the cell membrane, which reponds specifically to a particular neurotransmitter, hormone, antigen, or other substances.", "The receptors present at a synapse are either ionotropic or metabatropic"],
          "context_set": ""
         },
+        {"tag": "receptor synapse",
+         "patterns": ["are there receptors at a synapse"],
+         "responses": ["Yes, receptors are present on the membrane of the post-synaptic neuron"],
+         "context_set": ""
+        },
         {"tag": "axon",
          "patterns": ["what is an axon", "axon"],
          "responses": [ "An axon is a long slender projection of the neuron which conducts action potentials"],
+         "context_set": ""
+        },
+        {"tag": "axon terminal",
+         "patterns": ["what is an axon terminal", "axon terminal"],
+         "responses": [ "Axon terminals are the signal sending part of the neuron"],
          "context_set": ""
         },
         {"tag": "dendrite",
@@ -86,7 +152,7 @@
          "context_set": ""
         },
         {"tag": "metabotropic",
-         "patterns": ["what is a metabatropic receptor", "metabatropic", "what does metabatropic mean"],
+         "patterns": ["what is a metabotropic receptor", "metabotropic", "what does metabotropic mean"],
          "responses": ["Metabotropic receptors are membrane receptors which activate second messengers when a ligand binds"],
          "context_set": ""
         }

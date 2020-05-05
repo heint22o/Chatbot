@@ -60,14 +60,9 @@
          "context_set": ""
         },
         {"tag": "action potential",
-         "patterns": ["what is an action potential", "action potential", "how do neurons work"],
+         "patterns": ["what is an action potential", "action potential", "how do neurons work", "how does an action potential work"],
          "responses": ["Neurons send action potential which are changes in electrical potential associated with the passage of an impulse along the membrane of a nerve cell.", 
             "An action potential is an explosion of electrical activity that is created by a depolarizing current. So when the dendrites of one neuron recieves a stimulus from another neuron the receiving neuron membrane becomes more positive resulting in the opening of ion channels. This depolarization travels down the neuron until it reaches the axon and when it reaches the axon if the membrane potential is positive enough an action potential will fire, where the postive potential opens more ion channels continuously make the membrane potential more positive traveling down the axon. Eventually the positive membrane potential will reach the axon terminal and result in the release of neurotransmitters into a synapse"],
-         "context_set": ""
-        },
-        {"tag": "action potential funtion",
-         "patterns": ["how does an action potential work"],
-         "responses": ["An action potential is an explosion of electrical activity that is created by a depolarizing current. So when the dendrites of one neuron recieves a stimulus from another neuron the receiving neuron membrane becomes more positive resulting in the opening of ion channels. This depolarization travels down the neuron until it reaches the axon and when it reaches the axon if the membrane potential is positive enough an action potential will fire, where the postive potential opens more ion channels continuously make the membrane potential more positive traveling down the axon. Eventually the positive membrane potential will reach the axon terminal and result in the release of neurotransmitters into a synapse"],
          "context_set": ""
         },
         {"tag": "membrane potential",
@@ -81,33 +76,18 @@
          "context_set": ""
         },
         {"tag": "astrocyte",
-         "patterns": ["what is an astrocyte", "astrocyte","define astrocyte", "what does an astrocyte do"],
-         "responses": ["Astrocytes are star shaped glial cells and have a variety of functions","Astrocytes control cerebral blood flow, maintian the blood brain barrier, metabolize monoamine oxidases, and many more functions"],
-         "context_set": ""
-        },
-        {"tag": "astrocyte function",
-         "patterns": ["what does an astrocyte do", "what are the functions of an astrocyte"],
-         "responses": ["Astrocytes control cerebral blood flow, maintian the blood brain barrier, metabolize monoamine oxidases, and many more functions"],
+         "patterns": ["what is an astrocyte", "astrocyte","define astrocyte", "what does an astrocyte do", "what does an astrocyte do", "what are the functions of an astrocyte"],
+         "responses": ["Astrocytes are star shaped glial cells and have a variety of functions","Astrocytes control cerebral blood flow, maintian the blood brain barrier, metabolize monoamine oxidases, and many more functions", "Astrocytes control cerebral blood flow, maintian the blood brain barrier, metabolize monoamine oxidases, and many more functions"],
          "context_set": ""
         },
         {"tag": "microglia",
-         "patterns": ["what are microglia", "microglia","define microglia"],
-         "responses": ["Microglia are the immune cells of brain"],
-         "context_set": ""
-        },
-        {"tag": "microglia function",
-         "patterns": [ "what do microglia do"],
-         "responses": ["Microglia phagocytose pathogens in the CNS"],
+         "patterns": ["what are microglia", "microglia","define microglia", "what do microglia do"],
+         "responses": ["Microglia are the immune cells of brain", "Microglia phagocytose pathogens in the CNS"],
          "context_set": ""
         },
         {"tag": "oligodendrocyte",
-         "patterns": ["what is an oligodendrocyte", "oligodendrocyte","define oligodendrocyte"],
-         "responses": ["oligodendrocyte are the myelinating cells of the central nervous system", "oligodendrocyte wrap around the axon of neurons making the myelin sheath"],
-         "context_set": ""
-        },
-        {"tag": "oligodendrocyte function",
-         "patterns": ["what does an oligodendrocyte do"],
-         "responses": ["oligodendrocyte wrap around the axon of neurons making the myelin sheath"],
+         "patterns": ["what is an oligodendrocyte", "oligodendrocyte","define oligodendrocyte", "what does an oligodendrocyte do"],
+         "responses": ["oligodendrocyte are the myelinating cells of the central nervous system", "oligodendrocyte wrap around the axon of neurons making the myelin sheath", "oligodendrocyte wrap around the axon of neurons making the myelin sheath"],
          "context_set": ""
         },
         {"tag": "myelin",
@@ -122,13 +102,8 @@
          "context_set": ""
         },
         {"tag": "receptor",
-         "patterns": ["what is a receptor", "receptor", "what does a receptor do", "what are the different types of receptors"],
-         "responses": ["Receptors are is a molecule in the cell membrane, which reponds specifically to a particular neurotransmitter, hormone, antigen, or other substances.", "The receptors present at a synapse are either ionotropic or metabatropic"],
-         "context_set": ""
-        },
-        {"tag": "receptor synapse",
-         "patterns": ["are there receptors at a synapse"],
-         "responses": ["Yes, receptors are present on the membrane of the post-synaptic neuron"],
+         "patterns": ["what is a receptor", "receptor", "what does a receptor do", "what are the different types of receptors", "are there receptors at a synapse"],
+         "responses": ["Receptors are is a molecule in the cell membrane, which reponds specifically to a particular neurotransmitter, hormone, antigen, or other substances.", "The receptors present at a synapse are either ionotropic or metabatropic", "Yes, receptors are present on the membrane of the post-synaptic neuron"],
          "context_set": ""
         },
         {"tag": "axon",
